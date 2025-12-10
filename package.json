@@ -1,0 +1,19 @@
+{
+  "name": "software-testing-assignment",
+  "version": "1.0.0",
+  "description": "Tests for the E-Commerce helper library",
+  "main": "index.js",
+  "type": "module",
+"scripts": {
+  "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+  "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
+  "coveralls": "NODE_OPTIONS=--experimental-vm-modules jest --coverage --coverageReporters=text-lcov | coveralls"
+},
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.1.1",
+    "jest": "^30.2.0"
+  },
+  "keywords": []
+}
